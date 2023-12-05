@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
               alignment: Alignment.bottomRight,
               width: MediaQuery.of(context).size.width,
                 color: Colors.black54,
-                height: MediaQuery.of(context).size.width *.855,
+                height: MediaQuery.of(context).size.height - (MediaQuery.of(context).size.width + MediaQuery.of(context).size.width*.25),
                 child: Padding(
                   padding: const EdgeInsets.only(right: 10.0),
                   child: Text(procces.toString(),style: TextStyle(fontSize: 50,fontWeight: FontWeight.bold,letterSpacing: 2.6,color: Colors.white),),
